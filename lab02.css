@@ -1,19 +1,9 @@
-body {
-  background-color: firebrick;
-  text-align: center;
-}
 
-h1 {
-  margin: 20px;
-  font-size: 48px;
-  font-weight: bolder;
-}
 
 p {
-  padding: 10px;
-}
-
-#p1 {
-  background-color: rgba(255, 252, 101, 0.842);
-  color: slateblue
+  border: 2 px solid black;
+  padding: 10 px;
+  margin: 200 px;
+  width: 100 px;
+  font-size: 48px;
 }

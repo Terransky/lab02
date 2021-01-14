@@ -1,86 +1,85 @@
-'use strict';
-
-var user = prompt('Please introduce yourself.');
-// console.log('Hi ' + user);
-alert('Hi, ' + user + '. Please answer yes or no to the following questions.');
+"use strict";
 
 
-var q1 = prompt('Do you identify as an earthling?');
-q1 = q1.toLowerCase();
 
-if(q1 === 'yes' || q1 === 'y' ){
-  // console.log('I figured but I didn't want to assume.');
-  alert('I figured but I didn\'t want to assume.');
+var user = prompt('Hello. Please tell me your name.');
 
-} else if(q1 === 'no' || q1 === 'n'){
-    // console.log('Oh, how unusual.');
-    alert('Oh, how unusual.');
+alert(`Welcome, ${user}`);
 
-} else {
-  // console.log('Please answer yes or no.');
-  alert('Please answer yes or no.');
-}
 
-var q2 = prompt('Do you think humanity has a future?');
-q2 = q2.toLowerCase();
+var responseOne = prompt("Do you think I'm an earthling?").toLowerCase();
 
-if(q2 === 'yes' || q2 === 'y' ){
-  // console.log('Let's hope so.');
-  alert('Let\'s hope so.');
+if(responseOne === 'yes' || responseOne === 'y' ){
+  // console.log("Good, good, exactly what I want you to think.");
+  alert("Good, good, exactly what I want you to think.");
 
-} else if(q2 === 'no' || q2 === 'n'){
-    // console.log('Yeah, same.');
-    alert('Yeah, same.');
+} else if(responseOne === 'no' || responseOne === 'n'){
+    // console.log("Of course I am, how dare you. I'll remember this when we conquer this planet.");
+    alert("Of course I am, how dare you. I'll remember this when we conquer this planet.");
 
 } else {
-  // console.log('Please answer yes or no.');
-  alert('Please answer yes or no.');
+  // console.log("Please answer yes or no.");
+  alert("Please answer yes or no.");
 }
 
-var q3 = prompt('Do you want to live on this planet anymore?');
-q3 = q3.toLowerCase();
+var responseTwo = prompt("Do I play video games?").toLowerCase();
 
-if(q3 === 'yes' || q3 === 'y' ){
-  // console.log('2020 has been rough.');
-  alert('I guess it could be worse.');
+if(responseTwo === 'yes' || responseTwo === 'y' ){
+  // console.log("Indeed, I'm an avid gamer and currently looking forward to Monster Hunter Rise.");
+  alert("Indeed, I'm an avid gamer and currently looking forward to Monster Hunter Rise.");
 
-} else if(q3 === 'no' || q3 === 'n'){
-    // console.log('I guess it could be worse.');
-    alert('2020 has been rough.');
+} else if(responseTwo === 'no' || responseTwo === 'n'){
+    // console.log("Really? Don't I look like I do though?");
+    alert("Really? Don't I look like I do though?");
 
 } else {
-  // console.log('Please answer yes or no.');
-  alert('Please answer yes or no.');
+  // console.log("Please answer yes or no.");
+  alert("Please answer yes or no.");
 }
 
-var q4 = prompt('Will you fly with Papa Elon to Mars?');
-q4 = q4.toLowerCase();
+var responseThree = prompt("Do I drink alcohol?").toLowerCase();
 
-if(q4 === 'yes' || q4 === 'y' ){
-  // console.log('See you there.');
-  alert('See you there.');
+if(responseThree === 'yes' || responseThree === 'y' ){
+  // console.log("Most nights since I have trouble sleeping.");
+  alert("Most nights since I have trouble sleeping.");
 
-} else if(q4 === 'no' || q4 === 'n'){
-    // console.log('I feel ya, even flying international is exhausting.);
-    alert('I feel ya, even flying international is exhausting.');
+} else if(responseThree === 'no' || responseThree === 'n'){
+    // console.log("I'm actually a big fan of gin");
+    alert("I'm actually a big fan of gin.");
 
 } else {
-  // console.log('Please answer yes or no.');
-  alert('Please answer yes or no.');
+  // console.log("Please answer yes or no.");
+  alert("Please answer yes or no.");
 }
 
-var q5 = prompt('Or are cloud cities on Venus more your style?');
-q5 = q5.toLowerCase();
+var responseFour = prompt("Am I an old man?").toLowerCase();
 
-if(q5 === 'yes' || q5 === 'y' ){
-  // console.log('Balloon cities are a fun concept.');
-  alert('Balloon cities are a fun concept, ' + user + '.');
+if(responseFour === 'yes' || responseFour === 'y' ){
+  // console.log("I think so too.");
+  alert("I think so too.");
 
-} else if(q5 === 'no' || q5 === 'n'){
-    // console.log('I suppose sulphur clouds would give anyone pause.');
-    alert('I suppose sulphur clouds would give anyone pause, ' + user + '.');
+} else if(responseFour === 'no' || responseFour === 'n'){
+    // console.log("I sure feel like one.");
+    alert("I sure feel like one.");
 
 } else {
-  // console.log('Please answer yes or no.');
-  alert('Please answer yes or no, ' + user + '.');
+  // console.log("Please answer yes or no.");
+  alert("Please answer yes or no.");
 }
+
+var responseFive = prompt("Have I ever rode a unicycle.").toLowerCase();
+
+if(responseFive === 'yes' || responseFive === 'y' ){
+  // console.log("I was hoping to develop a sense of balance and strong core.");
+  alert("I was hoping to develop a sense of balance and strong core.");
+
+} else if(responseFive === 'no' || responseFive === 'n'){
+   // console.log("Surprisingly true, I have the scars to prove it.");
+  alert("Surprisingly true, I have the scars to prove it.");
+
+} else {
+  // console.log("Please answer yes or no.");
+  alert("Please answer yes or no.");
+}
+
+alert(`Thanks for playing along, ${user}`);
